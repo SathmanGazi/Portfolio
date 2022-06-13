@@ -24,7 +24,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link active-link">
                 <i class="uil uil-estate nav__icon"></i> Home
               </a>
             </li>
@@ -58,6 +58,9 @@
         </div>
 
         <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
           </div>
@@ -125,7 +128,7 @@
               </svg>
             </div>
             <div class="home__data">
-              <h1 class="home__title">Coffee?</h1>
+              <h1 class="home__title">Start</h1>
               <h3 class="home__subtitle">
                 Frontend developer? kono end er e developer na vai
               </h3>
@@ -738,6 +741,7 @@
               <div>
                 <a href="" class="button button--flex">
                   Send Message
+                  <i class="uil uil-message button__icon"></i>
                 </a>
               </div>
             </div>
@@ -747,10 +751,49 @@
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Musa Al Sathman Gazi</h1>
+            <span class="footer__subtitle">Computer Science Student</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a href="https://www.facebook.com/sathman.gazi/" target="_blank" class="footer__social">
+              <i class="uil uil-facebook-f"></i>
+            </a>
+
+            <a href="https://www.instagram.com/notsathman_ayy/?hl=en" target="_blank" class="footer__social">
+              <i class="uil uil-instagram"></i>
+            </a>
+
+            <a href="https://www.youtube.com/channel/UCvAwxl6nzyMbWqkpp-J1YJA" target="_blank" class="footer__social">
+              <i class="uil uil-youtube"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; No copyright yet</p>
+      </div>
+    </footer>
 
     <!--==================== SCROLL TOP ====================-->
-
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
 
